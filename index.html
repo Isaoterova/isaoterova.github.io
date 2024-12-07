@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online de Mascotas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tienda Premium para Mascotas</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div>
+            <form>
+                <label for="search">Buscar:</label>
+                <input type="text" id="search" name="search">
+                <input type="submit" value="Buscar">
+            </form>
+        </div>
+        <div>
+            <a href="#login">
+                <img src="images/usuario.png" alt="Usuario" width="50" height="50">
+            </a>
+            <a href="#carrito">
+                <img src="images/cart.png" alt="Carrito" width="50" height="50">
+            </a>
+        </div>        
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Bienvenido a la Tienda Premium de Mascotas</h2>
+            <div id="carousel" class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="images/cattoy.png" alt="Gato con juguete">
+                    <img src="images/dogbed2.png" alt="Perro con cama">
+                    <img src="images/dogjumping.png" alt="Perro jugando">
+                </div>
+                <div class="carousel-indicators">
+                    <button class="dot" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="productos">
+            <h2>Explora por Categorías</h2>
+            <div class="categoria-contenedor">
+                <div class="categoria-item">
+                    <img src="images/bedicon.png" alt="Camas para Mascotas">
+                    <h3>Camas</h3>
+                </div>
+                <div class="categoria-item">
+                    <img src="images/toyIcon.png" alt="Juguetes para Mascotas">
+                    <h3>Juguetes</h3>
+                </div>
+                <div class="categoria-item">
+                    <img src="images/hygieneicon.png" alt="Productos de Higiene">
+                    <h3>Higiene</h3>
+                </div>
+                <div class="categoria-item">
+                    <img src="images/snacksicon.png" alt="Snacks para Mascotas">
+                    <h3>Snacks</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="reviews">
+            <h2>Reseñas de nuestros Clientes</h2>
+            <p>"Excelente calidad en todos los productos, mis mascotas están encantadas!"</p>
+            <p>"Los juguetes son muy resistentes y seguros."</p>
+        </section>
+    </main>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Tienda Premium de Mascotas por Isabela Sofia Otero Vargas</p>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </footer>    
+    <script src="javascript/script.js"></script>
+</body>
+</html>
+
